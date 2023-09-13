@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: auto;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(62, 23, 23, 0.864);
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#Home">Home Page</a>
+  <a href="#Musings">Musings</a>
+  <a href="#Town">My Town</a>
+  <a href="#links">Links</a>
+</div>
+
+<div class="content">
+  <h2>My First Styled page</h2>
+  <p>Welcome to my styled page!</p>
+  <p class="p-4"> It lacks images but atleast it has style. And it has links, even if they don't go anywhere.... </p>
+<p>There should be more here, but I don't know what yet.</p>
+<hr>
+<p><i>Made 12 September 2023</i></p>
+<p><i>by myself.</i></p>
+</div>
+
+</body>
+</html>

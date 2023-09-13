@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMs</title>
+    <Style>
+        body{
+            background-color: rgba(90, 7, 33, 0.977);
+            justify-content: center;
+
+        }
+        .box{
+            
+            width: 50%;
+            height: 90%;
+            margin: auto;
+            background-color: rgb(102, 25, 65);
+            color: white;
+            padding: 20px 200px ;
+
+        }
+        .design{
+            padding-top:100px ;
+            padding-bottom: 100px;
+
+        }
+
+    </Style>
+</head>
+<body>
+    <div class="box">
+    <form class="design">
+        <label for="Name">Full Name: &emsp;&emsp;&emsp;&nbsp;</label> 
+        <input type ="text" id ="name" placeholder="Full Name" /><br /><br />
+        <label for="Username">Username: &emsp;&emsp;&emsp;&nbsp;</label>
+        <input type ="text" id ="Username" placeholder="Username" /><br /><br />
+        <label for="Password">Password: &emsp;&emsp;&emsp;&emsp;</label>
+        <input type="password" id="password" placeholder="Password" /><br /><br />
+        <label for=" Retype Password">Retype Password: &emsp;</label>
+        <input type="password" id="Repassword" placeholder="Retype Password" /><br /><br />
+        <p>Gender:
+        <label for="Gender">Male</label>
+        <input type="radio" id="Male" name="Gender">
+        <label for="Gender">Female</label>
+        <input type="radio" id="Female" name="Gender">
+        <label for="Gender">Other</label>
+        <input type="radio" name="Gender" id="Other"><br /><br /> 
+    </p>
+        <label for="Language">Language:&nbsp;&nbsp;</label>
+        <select name="Language" id="Language">
+            <option value="Hindi">Hindi</option>
+            <option value="English">English</option>
+            <option value="Telugu">Telugu</option>
+        </select><br /><br/>
+        <label for="Zip">Zip Code:&emsp;&emsp;&emsp;&emsp;</label>
+        <input type="text" id="Zip" name="Zip"><br /><br/>
+        <label for="About">About: &emsp;&emsp;&emsp;&emsp;</label>
+        <input type="text" name="About" id="About" placeholder="Write About Yourself...."><br /><br/>
+        <input type="submit" value="Save">
+        
+    </div>
+    </form>
+
+</body>
+</html>

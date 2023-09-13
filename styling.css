@@ -1,0 +1,89 @@
+table{
+    background: rgb(20, 173, 200);
+    border: 2px  solid black;
+    border-radius: 10px;
+    
+}
+th,td{
+    border: 2px  solid black;
+    border-radius: 10px;
+    width: 100px;
+
+}
+.shape-row{
+    display: flex;
+    justify-content: center;
+}
+.shape{
+    width: 100px;
+    height: 70px;
+    margin: 10px;
+    display: inline-block;
+    border: 2px solid aquamarine;
+    
+}
+.square{
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+.squareR{
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+.circle{
+    height: 60px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
+.squareT{
+    border-radius: 0 20px 0 20px;
+}
+ul{
+    list-style-type: none;
+    width: 150px ;
+    background-color: rgb(92, 213, 213);
+    border: 2px solid black;
+    padding-left: 2px;
+    padding-right: 2px;
+
+
+}
+li a{
+    display: block;
+    color: blue;
+    padding: 8px;
+    text-decoration: none; 
+}
+li a:hover{
+    
+    background-color: rgb(242, 189, 13);
+    color: white;
+}
+.NROW{
+    border: 1px solid black;
+    width: 160px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+}
+.NavBar{
+    display: flex ;
+}
+.navbar-Horizontal{
+    background-color: white;
+    width: 150px;
+}
+.navbar-Horizontal li a{
+    padding: 10px;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar-Horizontal ul{
+    list-style-type: none;
+    background-color: rgba(30, 30, 26, 0.488);
+}
+
+
